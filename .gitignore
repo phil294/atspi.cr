@@ -1,0 +1,13 @@
+/docs/
+/lib/
+/bin/
+!/bin/make-docs
+/.shards/
+*.dwarf
+shard.override.yml
+.ccls-cache
+.history
+
+# Libraries don't need dependency lock
+# Dependencies will be locked in applications that use them
+/shard.lock
