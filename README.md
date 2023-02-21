@@ -4,7 +4,9 @@ This is a fork of [hugopl/gtk4.cr](https://github.com/hugopl/gtk4.cr), but for A
 
 In fact, this very repository only consists out of four lines of code because most of the development happens in the [binding generator repository](https://github.com/hugopl/gi-crystal), not here.
 
-There's also [jhass/crystal-gobject](https://github.com/jhass/crystal-gobject), it can also be used for atspi, and it is more battle-tested. Both bindings are not compatible, but migrating is not hard.
+There's also the more popular and more battle-tested [jhass/crystal-gobject](https://github.com/jhass/crystal-gobject) for GTK3. Both bindings are not compatible, but migrating is not hard. I made this very alternative because when I used the other one, there were rare different rare crashes which I couldn't resolve.
+
+If you need GTK3, you can use https://github.com/phil294/gtk3.cr.
 
 ## API docs
 
