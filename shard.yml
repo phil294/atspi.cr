@@ -7,7 +7,7 @@ authors:
 dependencies:
   gi-crystal:
     github: hugopl/gi-crystal
-    version: ">= 0.15.2"
+    branch: main
   pango:
     github: hugopl/pango.cr
     version: ">= 0.2.0"
